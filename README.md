@@ -2,7 +2,7 @@
 
 A self-contained SQL script for a live user group demo: a fact table + three
 dimensions with generated dummy data, a Semantic View with comments,
-synonyms, sample values, metrics, and a verified query — and Row Access
+synonyms, sample values, metrics, and a verified query and Row Access
 Policy (RLS) + Column-level masking (CLS) applied to the *underlying tables*,
 enforced automatically when queried through the semantic view.
 
