@@ -592,3 +592,14 @@ SELECT * FROM SEMANTIC_VIEW(
 ORDER BY total_sales_amount DESC
 LIMIT 20;
 -- Expect: all 6 regions appear, and EMAIL/PHONE are shown in full.
+
+
+/* ============================================================================
+   PART 9 — Example Business Question for Cortex Analyst
+   ============================================================================ */
+
+-- 1. Which product category generates the most gross margin?
+-- 2. How did sales trend month over month across 2024–2025?
+-- 3. Which customer segment has the highest average order value?
+-- 4. What are the top 10 products by units sold?
+-- 5. How does gross margin percentage vary by region?
